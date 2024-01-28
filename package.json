@@ -1,0 +1,12 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/capitalize.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
