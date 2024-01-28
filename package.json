@@ -5,8 +5,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/capitalize.test.js"
+    "test": "sh ./run-tests.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "power-assert": "^1.6.1"
+  }
 }
