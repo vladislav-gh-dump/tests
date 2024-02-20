@@ -22,5 +22,5 @@ test('stack isEmpty', () => {
 
 test('stack pop', () => {
     const stack = stackInit();
-    expect(() => stack.pop()).toThrow();
+    expect(stack.pop()).toBeUndefined();
 });
